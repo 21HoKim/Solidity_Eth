@@ -414,11 +414,11 @@
 			]
 		},
 		"contract/ExampleToken.sol": {
-			"keccak256": "0xf2d4fa429a81665420c0ac6d94155630cc8f4faffc480422f40b39f255017c79",
+			"keccak256": "0x7c3ae611bef93dd4d5bdc6f2f626ba2f6bb5f281b60b380a57d9968f1f571a2a",
 			"license": "GPL -3.0",
 			"urls": [
-				"bzz-raw://9ed18010e70fc79ef853fc0caef4210f843d3577eab5e38eb71140662507c4bb",
-				"dweb:/ipfs/QmNvVzwvnys6t8B8cc125FwJsTXzk6Lva5jkctr8f9mzWP"
+				"bzz-raw://cc923392390856a64a0ad3f1a7fa608828d4acc8037716b09ec6ed6c79d5b396",
+				"dweb:/ipfs/QmNXDWaCkyNYzjdM4S7ZCmouME4JjAMsBaoBv4L1KfZE3Z"
 			]
 		}
 	},

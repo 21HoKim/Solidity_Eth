@@ -64,6 +64,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "NumBaseBall",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "input1",
 						"type": "uint256"
 					},
@@ -78,7 +97,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "RSP",
+				"name": "RockPaperScissors",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -195,6 +214,45 @@
 			},
 			{
 				"inputs": [],
+				"name": "gameEND",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumBaseBallSore",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRaceScore",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getRockScissorsPaper",
 				"outputs": [
 					{
@@ -267,6 +325,25 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "race",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -443,11 +520,11 @@
 			]
 		},
 		"contract/KimhoGames.sol": {
-			"keccak256": "0xa9c0c981bd91723999835173b5fecd7e9f26a92b8d04cfa5a0888c214e8af1f6",
+			"keccak256": "0x33cb6e2850b26d62b34491c338edfee75214df59e8733ca84726724275e3399e",
 			"license": "GPL -3.0",
 			"urls": [
-				"bzz-raw://af94e5e8379ec1e80c0c4b237c2bc0948990e72d233a1e01edf3b733188c0e7f",
-				"dweb:/ipfs/QmWvV3hXGduLa2hQXM7uQKnhrwzS2nJbH3X9EW53iHMn4B"
+				"bzz-raw://029eab07920123f7fbcc11302d65f6e1219153988e65665f649605a7b8eb88b7",
+				"dweb:/ipfs/QmZkmibuE6S8xg6tzHLhxcPQRopiQQFCbYV599qWFQXRLG"
 			]
 		}
 	},

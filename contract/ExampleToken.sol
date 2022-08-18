@@ -2,6 +2,8 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
+
+
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract ExampleToken is ERC20{ 
@@ -10,7 +12,7 @@ contract ExampleToken is ERC20{
     constructor() ERC20("BoBCoin", "BoB"){ //생성자
         owner = msg.sender; //지갑계정 주소는 현재 함수
 
-        //_mint(owner,1 * 10 ** decimals());
+       // _mint(owner,1 * 10 ** decimals());
     }
 
     function transfer(address to, uint256 amount) public override returns (bool){
